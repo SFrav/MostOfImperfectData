@@ -1,0 +1,508 @@
+\begin{thebibliography}{56}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Book
+\bibitem[{Alwin(2006)}]{Alwin2006}
+\bibinfo{author}{Alwin, D.~F.} (\bibinfo{year}{2006}).
+\newblock {\it \bibinfo{title}{{Margins of Error: A Study of Reliability in
+  Survey Measurement}}\/}.
+\newblock \bibinfo{address}{New Jersey}: \bibinfo{publisher}{John Wiley {\&}
+  Sons, Inc.}
+\newblock \DOIprefix {10.1002/9780470146316}.
+%Type = Article
+\bibitem[{Beegle et~al.(2012)Beegle, Carletto \& Himelein}]{Beegle2012}
+\bibinfo{author}{Beegle, K.}, \bibinfo{author}{Carletto, C.}, \&
+  \bibinfo{author}{Himelein, K.} (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{{Reliability of recall in agricultural data}}.
+\newblock {\it \bibinfo{journal}{Journal of Development Economics}\/},  {\it
+  \bibinfo{volume}{98}\/}, \bibinfo{pages}{34--41}. \DOIprefix
+  {10.1016/j.jdeveco.2011.09.005}.
+%Type = Unpublished
+\bibitem[{Carletto et~al.(2016)Carletto, Gourley, Murry \&
+  Zezza}]{Carletto2016}
+\bibinfo{author}{Carletto, C.}, \bibinfo{author}{Gourley, S.},
+  \bibinfo{author}{Murry, S.}, \& \bibinfo{author}{Zezza, A.}
+  (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{{Cheaper, Faster, and More Than Good Enough Is GPS
+  the New Gold Standard in Land Area Measurement ?}}. .
+%Type = Unpublished
+\bibitem[{Carletto et~al.(2011)Carletto, Savastano \& Zezza}]{Carletto2011}
+\bibinfo{author}{Carletto, C.}, \bibinfo{author}{Savastano, S.}, \&
+  \bibinfo{author}{Zezza, A.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{{Fact or artefact: the impact of measurement errors
+  on the farm size - productivity relationship}}. .
+%Type = Article
+\bibitem[{Carletto et~al.(2013)Carletto, Zezza \& Banerjee}]{Carletto2013}
+\bibinfo{author}{Carletto, C.}, \bibinfo{author}{Zezza, A.}, \&
+  \bibinfo{author}{Banerjee, R.} (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{{Towards better measurement of household food
+  security: Harmonizing indicators and the role of household surveys}}.
+\newblock {\it \bibinfo{journal}{Global Food Security}\/},  {\it
+  \bibinfo{volume}{2}\/}, \bibinfo{pages}{30--40}. \DOIprefix
+  {10.1016/j.gfs.2012.11.006}.
+%Type = Misc
+\bibitem[{Champely(2018)}]{Champely2018}
+\bibinfo{author}{Champely, S.} (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{{pwr: Basic Functions for Power Analysis}}.
+%Type = Article
+\bibitem[{Christiaensen(2017)}]{Christiaensen2017}
+\bibinfo{author}{Christiaensen, L.} (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{{Agriculture in Africa – Telling myths from facts:
+  A synthesis}}.
+\newblock {\it \bibinfo{journal}{Food Policy}\/},  {\it
+  \bibinfo{volume}{67}\/}, \bibinfo{pages}{1--11}. \DOIprefix
+  {10.1016/j.foodpol.2017.02.002}.
+%Type = Misc
+\bibitem[{CIA(2016{\natexlab{a}})}]{CIA2016a}
+\bibinfo{author}{CIA} (\bibinfo{year}{2016}{\natexlab{a}}).
+\newblock \bibinfo{title}{{Death rate: Country Comparison to the World}}.
+%Type = Misc
+\bibitem[{CIA(2016{\natexlab{b}})}]{CIA2016}
+\bibinfo{author}{CIA} (\bibinfo{year}{2016}{\natexlab{b}}).
+\newblock \bibinfo{title}{{Urbanisation: Country Comparison to the World}}.
+%Type = Unpublished
+\bibitem[{Deininger et~al.(2011)Deininger, Carletto, Savastano \&
+  Muwonge}]{Deininger2011}
+\bibinfo{author}{Deininger, K.}, \bibinfo{author}{Carletto, C.},
+  \bibinfo{author}{Savastano, S.}, \& \bibinfo{author}{Muwonge, J.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{{Can Diaries Help Improve Agricultural Production
+  Statistics ? Evidence from Uganda}}. .
+%Type = Article
+\bibitem[{Evans(1995)}]{Evans1995}
+\bibinfo{author}{Evans, B.} (\bibinfo{year}{1995}).
+\newblock \bibinfo{title}{{On the difference between reliability of measurement
+  and precision of survey instruments}}.
+\newblock {\it \bibinfo{journal}{The Canadian Journal of Program
+  Evaluation}\/},  {\it \bibinfo{volume}{10}\/}, \bibinfo{pages}{17--32}.
+%Type = Incollection
+\bibitem[{Fecso(2011)}]{Fecso2011}
+\bibinfo{author}{Fecso, R.} (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{{A Review of Errors of Direct Observation in Crop
+  Yield Surveys}}.
+\newblock In \bibinfo{editor}{P.~P. Biemer}, \bibinfo{editor}{R.~M. Groves},
+  \bibinfo{editor}{L.~E. Lyberg}, \bibinfo{editor}{N.~A. Mathiowetz}, \&
+  \bibinfo{editor}{S.~Sudman} (Eds.), {\it \bibinfo{booktitle}{Measurement
+  errors in surveys}\/} chapter~\bibinfo{chapter}{17}. (pp.
+  \bibinfo{pages}{327--346}).
+\newblock \bibinfo{address}{Hoboken}: \bibinfo{publisher}{John Wiley {\&} Sons,
+  Inc.}
+\newblock \DOIprefix {10.1002/9781118150382.ch17}.
+%Type = Article
+\bibitem[{Finn \& Ranchhod(2017)}]{Finn2017}
+\bibinfo{author}{Finn, A.}, \& \bibinfo{author}{Ranchhod, V.}
+  (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{{Genuine Fakes: The Prevalence and Implications of
+  Data Fabrication in a Large South African Survey}}.
+\newblock {\it \bibinfo{journal}{The World Bank Economic Review}\/},  {\it
+  \bibinfo{volume}{31}\/}, \bibinfo{pages}{129--157}. \DOIprefix
+  {10.1093/wber/lhv054}.
+%Type = Article
+\bibitem[{Fisher et~al.(2010)Fisher, Reimer \& Carr}]{Fisher2010}
+\bibinfo{author}{Fisher, M.}, \bibinfo{author}{Reimer, J.~J.}, \&
+  \bibinfo{author}{Carr, E.~R.} (\bibinfo{year}{2010}).
+\newblock \bibinfo{title}{{Who should be interviewed in surveys of household
+  income?}}
+\newblock {\it \bibinfo{journal}{World Development}\/},  {\it
+  \bibinfo{volume}{38}\/}, \bibinfo{pages}{966--973}. \DOIprefix
+  {10.1016/j.worlddev.2009.11.024}.
+%Type = Article
+\bibitem[{{Food and Agricutural
+  Organization}(2001)}]{FoodandAgricuturalOrganization2001}
+\bibinfo{author}{{Food and Agricutural Organization}} (\bibinfo{year}{2001}).
+\newblock \bibinfo{title}{{Human energy requirements: Report of a Joint
+  FAO/WHO/UNU Expert Consultation}}.
+\newblock {\it \bibinfo{journal}{FAO Food and Nutrition Technical Report
+  Series}\/},  {\it \bibinfo{volume}{0}\/}, \bibinfo{pages}{96}. \DOIprefix {92
+  5 105212 3}.
+%Type = Techreport
+\bibitem[{{Food and Agricutural
+  Organization}(2017{\natexlab{a}})}]{FoodandAgricuturalOrganization2017}
+\bibinfo{author}{{Food and Agricutural Organization}}
+  (\bibinfo{year}{2017}{\natexlab{a}}).
+\newblock {\it \bibinfo{title}{{Food Price Monitoring and Analysis}}\/}.
+\newblock \bibinfo{type}{Technical Report}, .
+\newblock \URLprefix
+  \url{http://www.fao.org/giews/food-prices/tool/public/index.html{\#}/home}.
+%Type = Techreport
+\bibitem[{{Food and Agricutural Organization}(2017{\natexlab{b}})}]{FAO2017}
+\bibinfo{author}{{Food and Agricutural Organization}}
+  (\bibinfo{year}{2017}{\natexlab{b}}).
+\newblock {\it \bibinfo{title}{{Statistical Programme}}\/}.
+\newblock \bibinfo{type}{Technical Report}, .
+%Type = Article
+\bibitem[{Fraval et~al.(2018)Fraval, Hammond, Lannerstad, Oosting, Sayula,
+  Teufel, Silvestri, Poole, Herrero \& van Wijk}]{Fraval2018a}
+\bibinfo{author}{Fraval, S.}, \bibinfo{author}{Hammond, J.},
+  \bibinfo{author}{Lannerstad, M.}, \bibinfo{author}{Oosting, S.~J.},
+  \bibinfo{author}{Sayula, G.}, \bibinfo{author}{Teufel, N.},
+  \bibinfo{author}{Silvestri, S.}, \bibinfo{author}{Poole, E.~J.},
+  \bibinfo{author}{Herrero, M.}, \& \bibinfo{author}{van Wijk, M.~T.}
+  (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{{Livelihoods and food security in an urban linked,
+  high potential region of Tanzania: Changes over a three year period}}.
+\newblock {\it \bibinfo{journal}{Agricultural Systems}\/},  {\it
+  \bibinfo{volume}{160}\/}, \bibinfo{pages}{87--95}. \DOIprefix
+  {10.1016/j.agsy.2017.10.013}.
+%Type = Article
+\bibitem[{Frelat et~al.(2016)Frelat, Lopez-Ridaura, Giller, Herrero,
+  Douxchamps, Djurfeldt, Erenstein, Henderson, Kassie, Paul, Rigolot, Ritzema,
+  Rodriguez, {Van Asten} \& {Van Wijk}}]{Frelat2016458}
+\bibinfo{author}{Frelat, R.}, \bibinfo{author}{Lopez-Ridaura, S.},
+  \bibinfo{author}{Giller, K.~E.}, \bibinfo{author}{Herrero, M.},
+  \bibinfo{author}{Douxchamps, S.}, \bibinfo{author}{Djurfeldt, A.~A.},
+  \bibinfo{author}{Erenstein, O.}, \bibinfo{author}{Henderson, B.},
+  \bibinfo{author}{Kassie, M.}, \bibinfo{author}{Paul, B.~K.},
+  \bibinfo{author}{Rigolot, C.}, \bibinfo{author}{Ritzema, R.~S.},
+  \bibinfo{author}{Rodriguez, D.}, \bibinfo{author}{{Van Asten}, P. J.~A.}, \&
+  \bibinfo{author}{{Van Wijk}, M.~T.} (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{{Drivers of household food availability in
+  sub-Saharan Africa based on big data from small farms}}.
+\newblock {\it \bibinfo{journal}{Proceedings of the National Academy of
+  Sciences of the United States of America}\/},  {\it \bibinfo{volume}{113}\/},
+  \bibinfo{pages}{458--463}. \DOIprefix {10.1073/pnas.1518384112}.
+%Type = Article
+\bibitem[{Gebrechorkos et~al.(2018)Gebrechorkos, H{\"{u}}lsmann \&
+  Bernhofer}]{Gebrechorkos2018}
+\bibinfo{author}{Gebrechorkos, S.~H.}, \bibinfo{author}{H{\"{u}}lsmann, S.}, \&
+  \bibinfo{author}{Bernhofer, C.} (\bibinfo{year}{2018}).
+\newblock \bibinfo{title}{{Changes in temperature and precipitation extremes in
+  Ethiopia, Kenya, and Tanzania}}.
+\newblock {\it \bibinfo{journal}{International Journal of Climatology}\/},
+  (pp. \bibinfo{pages}{1--13}). \DOIprefix {10.1002/joc.5777}.
+%Type = Article
+\bibitem[{Gibson et~al.(2015)Gibson, Beegle, {De Weerdt} \&
+  Friedman}]{Gibson2015}
+\bibinfo{author}{Gibson, J.}, \bibinfo{author}{Beegle, K.},
+  \bibinfo{author}{{De Weerdt}, J.}, \& \bibinfo{author}{Friedman, J.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{{What does variation in survey design reveal about
+  the nature of measurement errors in household consumption?}}
+\newblock {\it \bibinfo{journal}{Oxford Bulletin of Economics and
+  Statistics}\/},  {\it \bibinfo{volume}{77}\/}, \bibinfo{pages}{466--474}.
+  \DOIprefix {10.1111/obes.12066}.
+%Type = Article
+\bibitem[{Giller et~al.(2011)Giller, Tittonell, Rufino, van Wijk, Zingore,
+  Mapfumo, Adjei-Nsiah, Herrero, Chikowo, Corbeels, Rowe, Baijukya, Mwijage,
+  Smith, Yeboah, van~der Burg, Sanogo, Misiko, de~Ridder, Karanja, Kaizzi,
+  K'ungu, Mwale, Nwaga, Pacini \& Vanlauwe}]{Giller2011}
+\bibinfo{author}{Giller, K.~E.}, \bibinfo{author}{Tittonell, P.},
+  \bibinfo{author}{Rufino, M.~C.}, \bibinfo{author}{van Wijk, M.~T.},
+  \bibinfo{author}{Zingore, S.}, \bibinfo{author}{Mapfumo, P.},
+  \bibinfo{author}{Adjei-Nsiah, S.}, \bibinfo{author}{Herrero, M.},
+  \bibinfo{author}{Chikowo, R.}, \bibinfo{author}{Corbeels, M.},
+  \bibinfo{author}{Rowe, E.~C.}, \bibinfo{author}{Baijukya, F.},
+  \bibinfo{author}{Mwijage, A.}, \bibinfo{author}{Smith, J.},
+  \bibinfo{author}{Yeboah, E.}, \bibinfo{author}{van~der Burg, W.~J.},
+  \bibinfo{author}{Sanogo, O.~M.}, \bibinfo{author}{Misiko, M.},
+  \bibinfo{author}{de~Ridder, N.}, \bibinfo{author}{Karanja, S.},
+  \bibinfo{author}{Kaizzi, C.}, \bibinfo{author}{K'ungu, J.},
+  \bibinfo{author}{Mwale, M.}, \bibinfo{author}{Nwaga, D.},
+  \bibinfo{author}{Pacini, C.}, \& \bibinfo{author}{Vanlauwe, B.}
+  (\bibinfo{year}{2011}).
+\newblock \bibinfo{title}{{Communicating complexity: Integrated assessment of
+  trade-offs concerning soil fertility management within African farming
+  systems to support innovation and development}}.
+\newblock {\it \bibinfo{journal}{Agricultural Systems}\/},  {\it
+  \bibinfo{volume}{104}\/}, \bibinfo{pages}{191--203}. \DOIprefix
+  {10.1016/j.agsy.2010.07.002}.
+%Type = Book
+\bibitem[{Gollin(2006)}]{Gollin2006}
+\bibinfo{author}{Gollin, D.} (\bibinfo{year}{2006}).
+\newblock {\it \bibinfo{title}{{Impacts of International Research on
+  Intertemporal Yield Stability in Wheat and Maize: an economic
+  assessment}}\/}.
+\newblock \bibinfo{address}{Mexico}: \bibinfo{publisher}{CIMMYT}.
+%Type = Article
+\bibitem[{Hammond et~al.(2017)Hammond, Fraval, van Etten, Suchini, Mercado,
+  Pagella, Frelat, Lannerstad, Douxchamps, Teufel, Valbuena \& van
+  Wijk}]{Hammond2017225}
+\bibinfo{author}{Hammond, J.}, \bibinfo{author}{Fraval, S.},
+  \bibinfo{author}{van Etten, J.}, \bibinfo{author}{Suchini, J.~G.},
+  \bibinfo{author}{Mercado, L.}, \bibinfo{author}{Pagella, T.},
+  \bibinfo{author}{Frelat, R.}, \bibinfo{author}{Lannerstad, M.},
+  \bibinfo{author}{Douxchamps, S.}, \bibinfo{author}{Teufel, N.},
+  \bibinfo{author}{Valbuena, D.}, \& \bibinfo{author}{van Wijk, M.~T.}
+  (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{{The Rural Household Multi-Indicator Survey (RHoMIS)
+  for rapid characterisation of households to inform climate smart agriculture
+  interventions: Description and applications in East Africa and Central
+  America}}.
+\newblock {\it \bibinfo{journal}{Agricultural Systems}\/},  {\it
+  \bibinfo{volume}{151}\/}, \bibinfo{pages}{225--233}. \DOIprefix
+  {10.1016/j.agsy.2016.05.003}.
+%Type = Article
+\bibitem[{Herrero et~al.(2007)Herrero, Gonz{\'{a}}lez-Estrada, Thornton,
+  Quir{\'{o}}s, Waithaka, Ruiz \& Hoogenboom}]{Herrero2007}
+\bibinfo{author}{Herrero, M.}, \bibinfo{author}{Gonz{\'{a}}lez-Estrada, E.},
+  \bibinfo{author}{Thornton, P.~K.}, \bibinfo{author}{Quir{\'{o}}s, C.},
+  \bibinfo{author}{Waithaka, M.~M.}, \bibinfo{author}{Ruiz, R.}, \&
+  \bibinfo{author}{Hoogenboom, G.} (\bibinfo{year}{2007}).
+\newblock \bibinfo{title}{{IMPACT: Generic household-level databases and
+  diagnostics tools for integrated crop-livestock systems analysis}}.
+\newblock {\it \bibinfo{journal}{Agricultural Systems}\/},  {\it
+  \bibinfo{volume}{92}\/}, \bibinfo{pages}{240--265}. \DOIprefix
+  {10.1016/j.agsy.2006.03.008}. \href{http://arxiv.org/abs/ILP}{\tt arXiv:ILP}.
+%Type = Book
+\bibitem[{IFAD(2016)}]{IFAD2016}
+\bibinfo{author}{IFAD} (\bibinfo{year}{2016}).
+\newblock {\it \bibinfo{title}{{Rural Development Report 2016}}\/}.
+%Type = Article
+\bibitem[{Jayne et~al.(2016)Jayne, Chamberlin, Traub, Sitko, Muyanga, Yeboah,
+  Anseeuw, Chapoto, Wineman, Nkonde \& Kachule}]{Jayne2016}
+\bibinfo{author}{Jayne, T.~S.}, \bibinfo{author}{Chamberlin, J.},
+  \bibinfo{author}{Traub, L.}, \bibinfo{author}{Sitko, N.},
+  \bibinfo{author}{Muyanga, M.}, \bibinfo{author}{Yeboah, F.~K.},
+  \bibinfo{author}{Anseeuw, W.}, \bibinfo{author}{Chapoto, A.},
+  \bibinfo{author}{Wineman, A.}, \bibinfo{author}{Nkonde, C.}, \&
+  \bibinfo{author}{Kachule, R.} (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{{Africa's changing farm size distribution patterns:
+  the rise of medium-scale farms}}.
+\newblock {\it \bibinfo{journal}{Agricultural Economics}\/},  {\it
+  \bibinfo{volume}{47}\/}, \bibinfo{pages}{197--214}. \DOIprefix
+  {10.1111/agec.12308}.
+%Type = Article
+\bibitem[{Jerven \& Johnston(2015)}]{Jerven2015}
+\bibinfo{author}{Jerven, M.}, \& \bibinfo{author}{Johnston, D.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{{Statistical Tragedy in Africa ? Evaluating the Data
+  Base for African Economic Development}}.
+\newblock {\it \bibinfo{journal}{The Journal of Development Studies}\/},  {\it
+  \bibinfo{volume}{51}\/}, \bibinfo{pages}{111--115}. \DOIprefix
+  {10.1080/00220388.2014.968141}.
+%Type = Unpublished
+\bibitem[{Juster et~al.(2007)Juster, Cao, Couper, Hill, Hurd, Lupton, Perry \&
+  Smith}]{Juster2007}
+\bibinfo{author}{Juster, F.~T.}, \bibinfo{author}{Cao, H.},
+  \bibinfo{author}{Couper, M.}, \bibinfo{author}{Hill, D.},
+  \bibinfo{author}{Hurd, M.~D.}, \bibinfo{author}{Lupton, J.},
+  \bibinfo{author}{Perry, M.}, \& \bibinfo{author}{Smith, J.~P.}
+  (\bibinfo{year}{2007}).
+\newblock \bibinfo{title}{{Enhancing the Quality of Data on the Measurement of
+  Income and Wealth}}. .
+%Type = Unpublished
+\bibitem[{Kilic et~al.(2013)Kilic, Carletto, Zezza \& Savastano}]{Kilic2013}
+\bibinfo{author}{Kilic, T.}, \bibinfo{author}{Carletto, C.},
+  \bibinfo{author}{Zezza, A.}, \& \bibinfo{author}{Savastano, S.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{{Missing (Ness) in Action: Selectivity Bias in
+  Gps-Based Land Area Measurements}}. .
+\newblock \DOIprefix {10.1016/j.worlddev.2016.11.018}.
+%Type = Unpublished
+\bibitem[{Kilic \& Sohnesen(2015)}]{Kilic2015}
+\bibinfo{author}{Kilic, T.}, \& \bibinfo{author}{Sohnesen, T.~P.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{{Same Question But Different Answer: Experimental
+  Evidence on Questionnaire Design's Impact on Poverty Measured by Proxies}}. .
+\newblock \DOIprefix {10.1111/roiw.12343}.
+%Type = Article
+\bibitem[{Leeuw(2005)}]{Leeuw2005}
+\bibinfo{author}{Leeuw, E. D.~D.} (\bibinfo{year}{2005}).
+\newblock \bibinfo{title}{{To Mix or Not to Mix Data Collection Modes in
+  Surveys}}.
+\newblock {\it \bibinfo{journal}{Journal of Official Statistics}\/},  {\it
+  \bibinfo{volume}{21}\/}, \bibinfo{pages}{233--255}.
+%Type = Article
+\bibitem[{Little \& Rhemtulla(2013)}]{Little2013}
+\bibinfo{author}{Little, T.~D.}, \& \bibinfo{author}{Rhemtulla, M.}
+  (\bibinfo{year}{2013}).
+\newblock \bibinfo{title}{{Planned Missing Data Designs for Developmental
+  Researchers}}.
+\newblock {\it \bibinfo{journal}{Child Development Perspectives}\/},  {\it
+  \bibinfo{volume}{7}\/}, \bibinfo{pages}{199--204}. \DOIprefix
+  {10.1111/cdep.12043}.
+%Type = Book
+\bibitem[{Mathiowetz et~al.(2001)Mathiowetz, Brown \& Bound}]{Mathiowetz2001}
+\bibinfo{author}{Mathiowetz, N.~a.}, \bibinfo{author}{Brown, C.}, \&
+  \bibinfo{author}{Bound, J.} (\bibinfo{year}{2001}).
+\newblock {\it \bibinfo{title}{{Measurement Error in Surveys of the Low-Income
+  Population}}\/} volume~\bibinfo{volume}{1}.
+%Type = Article
+\bibitem[{Moore et~al.(2000)Moore, Stinson \& Welniak}]{Moore2000}
+\bibinfo{author}{Moore, J.~C.}, \bibinfo{author}{Stinson, L.~L.}, \&
+  \bibinfo{author}{Welniak, E. J.~J.} (\bibinfo{year}{2000}).
+\newblock \bibinfo{title}{{Income Measurement Error in Surveys: A Review}}.
+\newblock {\it \bibinfo{journal}{Journal of Official Statistics}\/},  {\it
+  \bibinfo{volume}{16}\/}, \bibinfo{pages}{31--361}.
+%Type = Unpublished
+\bibitem[{Neri \& Ranalli(2012)}]{Neri2012}
+\bibinfo{author}{Neri, A.}, \& \bibinfo{author}{Ranalli, M.~G.}
+  (\bibinfo{year}{2012}).
+\newblock \bibinfo{title}{{To misreport or not to report? The measurement of
+  household financial wealth}}. .
+\newblock \DOIprefix {10.1162/JEEA.2008.6.6.1109}.
+%Type = Article
+\bibitem[{de~Nicola \& Gin{\'{e}}(2014)}]{DeNicola2014}
+\bibinfo{author}{de~Nicola, F.}, \& \bibinfo{author}{Gin{\'{e}}, X.}
+  (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{{How accurate are recall data? Evidence from coastal
+  India}}.
+\newblock {\it \bibinfo{journal}{Journal of Development Economics}\/},  {\it
+  \bibinfo{volume}{106}\/}, \bibinfo{pages}{52--65}. \DOIprefix
+  {10.1016/j.jdeveco.2013.08.008}.
+%Type = Techreport
+\bibitem[{OECD(2009)}]{OECD2009}
+\bibinfo{author}{OECD} (\bibinfo{year}{2009}).
+\newblock {\it \bibinfo{title}{{Methods to Monitor and Evaluate the Impacts of
+  Agricultural Policies on Rural Development}}\/}.
+\newblock \bibinfo{type}{Technical Report},  OECD \bibinfo{address}{Paris}.
+%Type = Book
+\bibitem[{{Organisation for Economic Co-operation and Development (OECD)} \&
+  {Food and Agricutural
+  Organization}(2017)}]{OrganisationforEconomicCo-operationandDevelopmentOECD2017}
+\bibinfo{author}{{Organisation for Economic Co-operation and Development
+  (OECD)}}, \& \bibinfo{author}{{Food and Agricutural Organization}}
+  (\bibinfo{year}{2017}).
+\newblock {\it \bibinfo{title}{{OECD‑FAO Agricultural Outlook
+  2017‑2026}}\/}.
+%Type = Article
+\bibitem[{Phillips \& Jiang(2016)}]{Phillips2016}
+\bibinfo{author}{Phillips, G.~W.}, \& \bibinfo{author}{Jiang, T.}
+  (\bibinfo{year}{2016}).
+\newblock \bibinfo{title}{{Measurement Error and Equating Error in Power
+  Analysis}}, .
+\newblock {\it \bibinfo{volume}{21}\/}.
+%Type = Techreport
+\bibitem[{Pica-ciamarra et~al.(2012)Pica-ciamarra, Morgan \&
+  Baker}]{Pica-ciamarra2012}
+\bibinfo{author}{Pica-ciamarra, U.}, \bibinfo{author}{Morgan, N.}, \&
+  \bibinfo{author}{Baker, D.} (\bibinfo{year}{2012}).
+\newblock {\it \bibinfo{title}{{Core livestock data and indicators : results of
+  a stakeholder survey}}\/}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{May},  World Bank,
+  FAO, ILRI \bibinfo{address}{Rome}.
+%Type = Misc
+\bibitem[{Revelle(2017)}]{Revelle2017}
+\bibinfo{author}{Revelle, W.} (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{{psych: Procedures for Personality and Psychological
+  Research}}.
+%Type = Article
+\bibitem[{Rosenstock et~al.(2017)Rosenstock, Lamanna, Chesterman, Hammond,
+  Kadiyala, Luedeling, Shepherd, Derenzi \& Wijk}]{Rosenstock2017}
+\bibinfo{author}{Rosenstock, T.~S.}, \bibinfo{author}{Lamanna, C.},
+  \bibinfo{author}{Chesterman, S.}, \bibinfo{author}{Hammond, J.},
+  \bibinfo{author}{Kadiyala, S.}, \bibinfo{author}{Luedeling, E.},
+  \bibinfo{author}{Shepherd, K.}, \bibinfo{author}{Derenzi, B.}, \&
+  \bibinfo{author}{Wijk, M. T.~V.} (\bibinfo{year}{2017}).
+\newblock \bibinfo{title}{{When less is more: innovations for tracking progress
+  toward global targets}}.
+\newblock {\it \bibinfo{journal}{Current Opinion in Environmental
+  Sustainability}\/},  {\it \bibinfo{volume}{26-27}\/},
+  \bibinfo{pages}{54--61}. \DOIprefix {10.1016/j.cosust.2017.02.010}.
+%Type = Techreport
+\bibitem[{Rufino et~al.(2013)Rufino, Quiros, Boureima, Desta, Douxchamps,
+  Herrero, Kiplimo, Lamissa, Mango, Moussa, Naab, Ndour, Sayula, Silvestri,
+  Singh, Teufel \& Wanyama}]{Rufino2013}
+\bibinfo{author}{Rufino, M.~C.}, \bibinfo{author}{Quiros, C.},
+  \bibinfo{author}{Boureima, M.}, \bibinfo{author}{Desta, S.},
+  \bibinfo{author}{Douxchamps, S.}, \bibinfo{author}{Herrero, M.},
+  \bibinfo{author}{Kiplimo, J.}, \bibinfo{author}{Lamissa, D.},
+  \bibinfo{author}{Mango, J.}, \bibinfo{author}{Moussa, A.~S.},
+  \bibinfo{author}{Naab, J.}, \bibinfo{author}{Ndour, Y.},
+  \bibinfo{author}{Sayula, G.}, \bibinfo{author}{Silvestri, S.},
+  \bibinfo{author}{Singh, D.}, \bibinfo{author}{Teufel, N.}, \&
+  \bibinfo{author}{Wanyama, I.} (\bibinfo{year}{2013}).
+\newblock {\it \bibinfo{title}{{Developing generic tools for characterizing
+  agricultural systems for climate and global change studies ( IMPACTlite –
+  phase 2 )}}\/}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{January},  ILRI
+  \bibinfo{address}{Nairobi}.
+%Type = Article
+\bibitem[{Shrout \& Fleiss(1979)}]{Shrout1979}
+\bibinfo{author}{Shrout, P.~E.}, \& \bibinfo{author}{Fleiss, J.~L.}
+  (\bibinfo{year}{1979}).
+\newblock \bibinfo{title}{{Intraclass correlations: uses in assessing rater
+  reliability.1. Shrout PE, Fleiss JL: Intraclass correlations: uses in
+  assessing rater reliability. Psychol Bull 1979, 86:420–8.}}
+\newblock {\it \bibinfo{journal}{Psychological bulletin}\/},  {\it
+  \bibinfo{volume}{86}\/}, \bibinfo{pages}{420--8}.
+%Type = Techreport
+\bibitem[{Swindale \& Bilinsky(2006)}]{Swindale2006}
+\bibinfo{author}{Swindale, A.}, \& \bibinfo{author}{Bilinsky, P.}
+  (\bibinfo{year}{2006}).
+\newblock {\it \bibinfo{title}{{Household Dietary Diversity Score (HDDS) for
+  Measurement of Household Food Access: Indicator Guide (v.2)}}\/}.
+\newblock \bibinfo{type}{Technical Report},  USAID
+  \bibinfo{address}{Washington, DC}.
+%Type = Article
+\bibitem[{Thornton \& Herrero(2015)}]{Thornton2015}
+\bibinfo{author}{Thornton, P.~K.}, \& \bibinfo{author}{Herrero, M.}
+  (\bibinfo{year}{2015}).
+\newblock \bibinfo{title}{{Livestock farming systems in sub-Saharan Africa}}.
+\newblock {\it \bibinfo{journal}{Nature Publishing Group}\/},  {\it
+  \bibinfo{volume}{5}\/}, \bibinfo{pages}{830--836}. \DOIprefix
+  {10.1038/nclimate2754}.
+%Type = Techreport
+\bibitem[{{Uganda Bureau of Statistics}()}]{UgandaBureauofStatistics}
+\bibinfo{author}{{Uganda Bureau of Statistics}} ().
+\newblock {\it \bibinfo{title}{{The Uganda national panel survey 2009/10: Basic
+  Information Document}}\/}.
+\newblock \bibinfo{type}{Technical Report} \bibinfo{number}{July}, .
+%Type = Techreport
+\bibitem[{{Uganda Bureau of Statistics}(2002)}]{UgandaBureauofStatistics2002}
+\bibinfo{author}{{Uganda Bureau of Statistics}} (\bibinfo{year}{2002}).
+\newblock {\it \bibinfo{title}{{2002 Uganda Population and Housing Census
+  Analytical Report}}\/}.
+\newblock \bibinfo{type}{Technical Report},  UBOS \bibinfo{address}{Kampala}.
+\newblock \URLprefix \url{http://www.ubos.org/onlinefiles/uploads/ubos/pdf
+  documents/2002 CensusPopnSizeGrowthAnalyticalReport.pdf}.
+  \href{http://arxiv.org/abs//www.ubos.org/onlinefiles/uploads/ubos/pdf{\%}20documents/2002{\%}20Census{\%}20Final{\%}20Reportdoc.pdf}{\tt
+  arXiv:/www.ubos.org/onlinefiles/uploads/ubos/pdf{\%}20documents/2002{\%}20Census{\%}20Final{\%}20Reportdoc.pdf}.
+%Type = Techreport
+\bibitem[{{Uganda Bureau of Statistics}(2007)}]{UgandaBureauofStatistics2007}
+\bibinfo{author}{{Uganda Bureau of Statistics}} (\bibinfo{year}{2007}).
+\newblock {\it \bibinfo{title}{{Uganda national household survey
+  2005/2006}}\/}.
+\newblock \bibinfo{type}{Technical Report},  Uganda Bureau of Statistics
+  \bibinfo{address}{Kampala}.
+\newblock \URLprefix
+  \url{http://www.ubos.org/onlinefiles/uploads/ubos/statistical{\_}abstracts/Statistical
+  Abstract 2014.pdf. Accessed: August 15, 2016}.
+%Type = Techreport
+\bibitem[{UNFCCC(2012)}]{UNFCCC2012}
+\bibinfo{author}{UNFCCC} (\bibinfo{year}{2012}).
+\newblock {\it \bibinfo{title}{{Standard for sampling and surveys for CDM
+  project activities and programme of activities}}\/}.
+\newblock \bibinfo{type}{Technical Report},  UNFCCC \bibinfo{address}{Bonn}.
+%Type = Book
+\bibitem[{{United Nations Department of Economic and Social
+  Affairs}(2005)}]{UnitedNationsDepartmentofEconomicandSocialAffairs2005}
+\bibinfo{author}{{United Nations Department of Economic and Social Affairs}}
+  (\bibinfo{year}{2005}).
+\newblock {\it \bibinfo{title}{{Household Sample Surveys in Developing and
+  Transition Countries}}\/} volume~\bibinfo{volume}{F}.
+%Type = Book
+\bibitem[{Weisburg(2005)}]{Weisburg2005}
+\bibinfo{author}{Weisburg, H.} (\bibinfo{year}{2005}).
+\newblock {\it \bibinfo{title}{{The Total Survey Error Approach}}\/}.
+\newblock \bibinfo{address}{Chicago}: \bibinfo{publisher}{The University of
+  Chicago Press}.
+%Type = Misc
+\bibitem[{{World Bank}({\natexlab{a}})}]{WorldBank}
+\bibinfo{author}{{World Bank}} ({\natexlab{a}}).
+\newblock \bibinfo{title}{{Living Standards Measurement Study-Integrated
+  Surveys on Agriculture}}.
+%Type = Misc
+\bibitem[{{World Bank}({\natexlab{b}})}]{WorldBanka}
+\bibinfo{author}{{World Bank}} ({\natexlab{b}}).
+\newblock \bibinfo{title}{{Living Standards Measurement Survey}}.
+%Type = Unpublished
+\bibitem[{Zezza et~al.(2014)Zezza, Federighi, Adamou \& Hiernaux}]{Zezza2014}
+\bibinfo{author}{Zezza, A.}, \bibinfo{author}{Federighi, G.},
+  \bibinfo{author}{Adamou, K.}, \& \bibinfo{author}{Hiernaux, P.}
+  (\bibinfo{year}{2014}).
+\newblock \bibinfo{title}{{Milking the Data : Measuring Income from Milk
+  Production in Extensive Livestock Systems Experimental Evidence from Niger}}.
+  .
+
+\end{thebibliography}

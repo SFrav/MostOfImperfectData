@@ -1,0 +1,250 @@
+\documentclass [a4paper,11pt,twoside]{book}
+
+
+\usepackage{booktabs} %included for lines at the top and bottom of tables
+\usepackage{arydshln} %for dotted lines \hdashline
+\usepackage{enumitem} %Used in chapter 2 for lists.
+\usepackage{upgreek} %Used for greek letters in chaper 3
+\usepackage[table]{xcolor} %for grey midrules. See here: https://tex.stackexchange.com/questions/317077/lighter-midrule %This needs to be above some other package below otherwise there is a clash. Probably with \usepackage{colour}
+
+
+\usepackage[hidelinks, pdftex,
+            pdfauthor={Simon Fraval},
+            pdftitle={Food security in rural sub-Saharan Africa: A household level assessment of crop-livestock systems},
+            pdfsubject={Rural livelihoods},
+            pdfkeywords={Food security, micronutrients, livelihoods},
+            pdfproducer={Lualatex},
+            pdfcreator={Lualatex}]{hyperref} %Make all references clickable, but without a red box around it. See here: https://tex.stackexchange.com/questions/26529/how-can-i-generate-pdf-metadata-from-latex
+
+\usepackage[dutch,english]{babel}
+\usepackage{graphicx}
+\usepackage[authoryear]{natbib} %for reference management. Easy intext citation with \citealp, or \citet ect. %An alternative is to use biber: https://en.wikibooks.org/wiki/LaTeX/Bibliographies_with_biblatex_and_biber
+%\usepackage{bibentry} % bibentry for inserting complete BibTeX entries inline, explanation: http://stefaanlippens.net/bibentry
+%\nobibliography* % required by bibentry package;
+\usepackage{amsmath}
+\usepackage{fancyhdr}
+\usepackage[small,bf]{caption}
+\captionsetup{labelsep=space} % Just have a space after caption number. No colon. Can use labelsep=period too. See https://tex.stackexchange.com/questions/29181/figure-and-table-numbers-in-caption-are-terminated-by-a-period-and-semicolon
+\usepackage{multirow}
+\usepackage[top=3.35cm, bottom=3.35cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage[parfill]{parskip}
+\usepackage{pdfpages}
+\usepackage{color}
+\usepackage[figuresright]{rotating} %!Put rotate all sideways tables in the same direction with the top to the left
+\usepackage{changepage} % for indenting entire paragraphs
+\usepackage{float} % help with table positioning
+\floatstyle{plaintop} % caption on top
+\restylefloat{table} % see above. Use: \begin{table}[H]
+\usepackage{textcomp} % \textdegree
+\usepackage{csquotes} % for block quotes, use {displayquote} environment
+\usepackage{soul}
+\usepackage{fp}
+\usepackage{tabularx}
+\newcolumntype{Y}{>{\centering\arraybackslash}X} %centre columns in tabularx environment
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} %left align fixed width column in tabular environment
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % center a fixed with column in tabular environment
+\usepackage{subcaption}
+\usepackage{pdflscape} %Use for sideways table with longtable
+\usepackage{hvfloat} %For rotating tables with more control
+\usepackage{gensymb}
+\usepackage[version=4]{mhchem}
+\usepackage{wrapfig}
+\usepackage{makecell} %For controlling text in a table cell. See: https://tex.stackexchange.com/questions/2441/how-to-add-a-forced-line-break-inside-a-table-cell
+\usepackage{lastpage} %To refer to the last page with automatic update
+
+\providecommand\phantomsection{} %Hyperref to find the right page https://tex.stackexchange.com/questions/44088/when-do-i-need-to-invoke-phantomsection
+
+\addto\captionsenglish{\renewcommand{\bibname}{References}}
+
+
+
+\definecolor{Red}{rgb}{0.5,0,0}
+\definecolor{Blue}{rgb}{0,0,0.5}
+
+%%%%
+%Margins and spacing
+%%%%
+\setlength{\captionmargin}{5pt}
+
+\linespread{1.15} %1 is single spacing, 1.3 is oneandhalf spacing
+
+\newcommand{\longpage}{\enlargethispage{\baselineskip}}
+\newcommand{\shortpage}{\enlargethispage{-\baselineskip}}
+\newcommand{\setreference}{\vspace*{\fill}}
+
+
+
+%%%%
+%Running head
+%%%%
+\pagestyle{fancy}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+\fancyhf{}
+\fancyhead[LE,RO]{\footnotesize\sffamily\thepage} %!\bfseries put before \thepage \rightmark \leftmark if you want a bold running head
+\fancyhead[LO]{\footnotesize\sffamily\rightmark} %!My preference was for a smaller running head with the same font and the headings
+\fancyhead[RE]{\footnotesize\sffamily\leftmark}
+\headheight 15pt
+
+\fancypagestyle{plain}{%
+\fancyhead{} % get rid of headers
+\renewcommand{\headrulewidth}{0pt} % and the line
+}
+\renewcommand{\headrulewidth}{0.4pt}
+
+%%%%
+%Abstract environment
+%%%%
+\newenvironment{chapintro}
+{
+    \begin{center}
+    \begin{minipage}[t]{0.9\textwidth}
+    \hrule
+    \medskip
+    \small
+}
+{
+    \medskip
+    \hrule
+    \end{minipage}
+    \end{center}
+    \bigskip
+}
+
+
+%%%%
+%Lists
+%%%%
+
+\newenvironment{itemize*}%
+  {\begin{itemize}%
+    \setlength{\parskip}{0pt}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parsep}{0pt}}%
+  {\end{itemize}}
+
+
+\renewcommand{\descriptionlabel}[1]{\hspace{\labelsep}\textrm{#1}}
+\newenvironment{description*}%
+  {\begin{description}%
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{description}}
+
+
+%%%%
+%Reference list
+%%%%
+  \let\oldthebibliography=\thebibliography
+  \let\endoldthebibliography=\endthebibliography
+  \renewenvironment{thebibliography}[1]{%
+    \begin{oldthebibliography}{#1}%
+      \setlength{\parskip}{0ex}%
+      \setlength{\itemsep}{1ex}%
+  }%
+  {%
+    \end{oldthebibliography}%
+  }
+
+%Make reference list heading different from other chapters
+%https://tex.stackexchange.com/questions/148992/changing-the-heading-style-of-references-section
+\renewcommand{\refname}{References}
+\makeatletter
+\renewcommand\bibsection{\thispagestyle{empty} %No running head on page with title
+ \section*{{\Huge\rmfamily{\refname}}\@mkboth{\MakeUppercase{\refname}}{\MakeUppercase{\refname}}}%rmfamily is the main sans font
+}%
+\makeatother
+
+%For smaller font size in bib. See: https://tex.stackexchange.com/questions/329/how-to-change-font-size-for-bibliography
+\renewcommand*{\bibfont}{\small} %Or if you're using bibentry within the document so don't want this to be global, you can wrap like so: {\small\bibliography{fullReferenceList}}
+
+
+
+
+%%%%
+%Section headings
+%%%%
+
+
+%This only seems to make subsections smaller and adds a tiny bit of spacing above the headings. Remove if can reduce subsection font in a simpler way
+%% using titlesec
+\usepackage{titlesec}
+
+%Remove `chapter' from the title page
+\titleformat{\chapter}[display]
+{\bfseries\Large}
+{\filright}
+{1ex}{}[]
+%% FIX FOR BUG in titlesec 2.10.1
+\usepackage{etoolbox}
+
+\makeatletter
+\patchcmd{\ttlh@hang}{\parindent\z@}{\parindent\z@\leavevmode}{}{}
+\patchcmd{\ttlh@hang}{\noindent}{}{}{}
+\makeatother
+% END OF BUGFIX
+
+%Change heading font to sans - sffamily
+\titleformat{\section}
+  {\bfseries\sffamily\Large}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalsize\bfseries\sffamily}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalsize\itshape\sffamily}
+  {\thesubsubsection}{1em}{}
+
+
+  %%%%%
+%Set spacing after subheadings and subsubheadings
+%%%%
+%Adopted from here https://tex.stackexchange.com/questions/53338/reducing-spacing-after-headings
+%\titlespacing{\section}{0pt}{\parskip}{-\parskip}
+\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+\titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
+
+%%%%%
+% Fonts
+%%%%%%
+%! This needs to be compiled with LuaLaTeX, otherwise you can't access system fonts
+% Nice suggestions from the 'thesiswhisperer': Garamond for headings and Helvetica for body. Or Minion Pro and Myriad Pro
+
+\usepackage{fontspec} %https://tex.stackexchange.com/questions/96631/how-do-i-set-the-document-body-to-be-times-new-roman-and-section-headings-to-be
+
+%\usepackage{titlesec} %uncomment if titlesec removed from the subheadings section
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Book Antiqua}  %Set body font ... Also tried Garamond and Junicode
+\setsansfont{TeX Gyre Heros}  %Set heading font % Tex Gyre https://www.fontsquirrel.com/fonts/tex-gyre-heros. Use this with \sffamily
+
+
+
+%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+% Article content
+%_______________________________________________________________________________________________
+
+\raggedbottom % preferentially leaves whitespace at bottom of page instead of distributing throughout vertical space
+
+\begin{document}
+
+%Content
+\mainmatter
+\setcounter{page}{1}
+
+\include{DataQualityAuthorVersion}
+
+
+%Bibs. See here https://en.wikibooks.org/wiki/LaTeX/More_Bibliographies
+\bibliographystyle{model5-namesSF} %Elsevier styles. Edited line 1007 to remove repetition of `doi:doi:'  %Changes all numnames to 200 so not truncated to et al. in bibliography
+%Retreived from here: https://github.com/Sweitse/BibliographyStyles
+%Alternatives: model2-names - excludes parentheses %!Other examples here %https://www.overleaf.com/learn/latex/Biblatex_bibliography_styles
+%Or make your own style: https://ctan.org/tex-archive/macros/latex/contrib/custom-bib/
+%\phantomsection
+%\addcontentsline{toc}{chapter}{References}
+
+\bibliography{fullReferenceList} %! This is the bib file that you exported from Mendeley End note ect.
+%\addcontentsline{toc}{chapter}{References}
+%For references at the end of each chapter, see this thread: https://tex.stackexchange.com/questions/87414/per-chapter-bibliographies-in-biblatex
+%\fancyhead{}
+
+\end{document}
