@@ -10,7 +10,7 @@
  ^^^^^   ^^^ ^ ^^^ ^^^^ ^^^ ^^ ^^ "" """( " ~~~~~~ ~~~~~  ~~~ ~ Ascii art by jgs
 
 
-This repository includes the code for reproducing the article titled: Making the most of imperfect data: a critical evaluation of standard information collected in farm household surveys, published in Experimental Agriculture in 2018. Refer to [the doi](https://doi:10.1017/S0014479718000388).
+This repository includes the code for reproducing the article titled: Making the most of imperfect data: a critical evaluation of standard information collected in farm household surveys, published in Experimental Agriculture in 2018. Refer to [the doi](https://doi.org/10.1017/S0014479718000388).
 
 An author produced version is available in the PDF folder. The LaTeX code used to generate the PDF is available in the root folder. 
 
